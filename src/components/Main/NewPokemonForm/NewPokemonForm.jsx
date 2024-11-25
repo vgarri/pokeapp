@@ -62,7 +62,7 @@ const NewPokemonForm = () => {
 
         <input type="text" name="type2" placeholder="type 2" onChange={handleChange} />
 
-        <button className="newPokemonButton" type="submit">SUBMIT</button>
+        <button className="newPokemonButton" type="submit">Create</button>
 
       </form>
       {renderCreatedPokemon()}
