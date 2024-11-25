@@ -1,13 +1,26 @@
-
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
 
 h2 {
     margin: 20px;
     font-size: 40px;
 }
+h3,h4,p {
+    margin: 10px;
+    font-size: 20px;
+}
 header{
     display: flex;
     justify-content: center;
 
+}
+.stats{
+   padding: 8px;
+   margin: 25px;
+   text-align: left;
+   background-color: white;
+   border-radius: 8px;
+   box-shadow:  7px 7px 5px -1px #646cff;
 }
 
 input[type="text"],
