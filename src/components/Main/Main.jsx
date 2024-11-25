@@ -20,6 +20,7 @@ const Main = () => {
       <Route path="/pokemon/:id" element={<>
       <Details/>
       </>} />
+      <Route path="/*" element={<Navigate to={'/'} />} />
 
     </Routes>
   </>;

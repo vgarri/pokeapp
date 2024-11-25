@@ -6,8 +6,10 @@ h2 {
 }
 header{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+
 }
+
 input[type="text"],
 textarea {
     font-size: larger;
