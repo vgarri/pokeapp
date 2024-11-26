@@ -20,7 +20,7 @@ const ListaPokemon = () => {
  useEffect(() => {
   const getPokemons = async () => {
     try {
-      const resp2 = await axios.get(`https://pokeapi.co/api/v2/pokemon/?offset=0&limit=386`)
+      const resp2 = await axios.get(`https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1000`)
       setPokemonList(resp2.data.results)
       
     } catch (err) {
